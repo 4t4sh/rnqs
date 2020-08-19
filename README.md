@@ -1,6 +1,6 @@
-# React Native Quick Start
+## React Native Quick Start
 
-## Tech stack
+### Tech stack
 
 - [React Native 0.63](https://reactnative.dev/)
 - [typeScript 3.9](https://www.typescriptlang.org/)
@@ -9,7 +9,7 @@
 - [react-navigation](https://reactnavigation.org/docs/getting-started)
 - [styled-components](https://styled-components.com/)
 
-## Requirements
+### Requirements
 
 _NOTE_: The environment for this was done with macOS 10.14.X
 
@@ -19,7 +19,7 @@ _NOTE_: The environment for this was done with macOS 10.14.X
 - XCode
 - Android Studio
 
-## How to start the boilerplate
+### How to start the boilerplate
 
 - Clone this repository:
 
@@ -36,9 +36,7 @@ $> yarn
 $> yarn renameApp <NewNameOfTheApp> -b "[domain].[company].[project]"
 ```
 
-### Android & iOS
-
-#### Development
+#### Android & iOS
 
 The platform in the command bellow must be one of `android` or `ios`
 
@@ -50,9 +48,7 @@ $> yarn start
 $> yarn run:[platform]
 ```
 
-_NOTE_: It's automatically start the metro server.
-
-## Contribute
+### Contribute
 
 Please contribute with ideas on GH issues or create PR to improve this repository.
 
