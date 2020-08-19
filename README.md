@@ -33,7 +33,7 @@ $> git clone https://github.com/4t4sh/rnqs
 $> rm -rf .git/
 $> git init
 $> yarn
-$> yarn renameApp <NewNameOfTheApp> -b "[domain].[company].[project]"
+$> yarn rename <NewNameOfTheApp> -b "[domain].[company].[project]"
 ```
 
 #### Android & iOS
