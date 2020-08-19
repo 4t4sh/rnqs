@@ -1,9 +1,9 @@
-import React, {FC} from 'react';
-import {SafeAreaView, StatusBar, Button} from 'react-native';
-import styled from 'styled-components/native';
+import React, { FC } from "react";
+import { SafeAreaView, StatusBar, Button } from "react-native";
+import styled from "styled-components/native";
 
-import {StackNavigationProp} from '@react-navigation/stack';
-import {RootStackParamList} from '../router';
+import { StackNavigationProp } from "@react-navigation/stack";
+import { RootStackParamList } from "../router";
 
 const ScrollView = styled.ScrollView`
   background-color: white;
@@ -41,14 +41,14 @@ const ButtonContainer = styled.View`
 
 type AboutScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
-  'About'
+  "About"
 >;
 
 type AboutScreenProps = {
   navigation: AboutScreenNavigationProp;
 };
 
-const AboutScreen: FC<AboutScreenProps> = ({navigation}) => (
+const AboutScreen: FC<AboutScreenProps> = ({ navigation }) => (
   <>
     <StatusBar barStyle="dark-content" />
     <SafeAreaView>
@@ -58,7 +58,7 @@ const AboutScreen: FC<AboutScreenProps> = ({navigation}) => (
             <Title>And this is an About screen</Title>
             <SectionDescription>
               This is it, you can go back with a gesture, from the control of
-              the navigation bar or clicking the button bellow,{' '}
+              the navigation bar or clicking the button bellow,{" "}
               <Highlight>you decide.</Highlight>
             </SectionDescription>
           </SectionContainer>

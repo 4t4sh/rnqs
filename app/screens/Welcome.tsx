@@ -1,13 +1,13 @@
-import React, {FC} from 'react';
-import {SafeAreaView, StatusBar, Button} from 'react-native';
-import styled from 'styled-components/native';
+import React, { FC } from "react";
+import { SafeAreaView, StatusBar, Button } from "react-native";
+import styled from "styled-components/native";
 
 import {
   DebugInstructions,
   ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import {StackNavigationProp} from '@react-navigation/stack';
-import {RootStackParamList} from '../router';
+} from "react-native/Libraries/NewAppScreen";
+import { StackNavigationProp } from "@react-navigation/stack";
+import { RootStackParamList } from "../router";
 
 const ScrollView = styled.ScrollView`
   background-color: white;
@@ -51,14 +51,14 @@ const ButtonContainer = styled.View`
 
 type WelcomeScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
-  'Welcome'
+  "Welcome"
 >;
 
 type WelcomeScreenProps = {
   navigation: WelcomeScreenNavigationProp;
 };
 
-const WelcomeScreen: FC<WelcomeScreenProps> = ({navigation}) => (
+const WelcomeScreen: FC<WelcomeScreenProps> = ({ navigation }) => (
   <>
     <StatusBar barStyle="dark-content" />
     <SafeAreaView>
@@ -105,7 +105,7 @@ const WelcomeScreen: FC<WelcomeScreenProps> = ({navigation}) => (
               <Button
                 color="#841584"
                 title="Click me 🦆"
-                onPress={() => navigation.navigate('About')}
+                onPress={() => navigation.navigate("About")}
               />
             </ButtonContainer>
           </SectionContainer>
